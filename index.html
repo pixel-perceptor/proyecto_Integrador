@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HJC Store</title>
+    <link rel="stylesheet" href="./src/style/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="nav-bar d-flex justify-space-between align-center">
+          <a href="#"
+            ><img src="./src/img/logo-hjc.svg" alt="logo hjc" id="mainLogo"
+          /></a>
+
+          <button id="burguer">
+            <img src="./src/img/menu.png" alt="icono de menú" />
+          </button>
+          <nav class="menu mr-4" id="menuMobile">
+            <ul class="d-flex gap-2 sm-flex-column">
+              <li><a href="./index.html">Inicio</a></li>
+              <li><a href="./caracteristicas.html">Características</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+              <li><a href="./disenos.html">Diseños</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div class="d-flex align-center justify-center gap-4 sm-flex-column">
+            <img
+              class="hero-img"
+              src="./src/img/casco-hero.png"
+              alt="Casco fabio quartararo RPHA 1"
+            />
+            <div class="hero-text-container text-white">
+              <h1 id="hero-title">
+                Nuevo Lanzamiento <br />
+                <span id="referencia">RPHA1</span>
+              </h1>
+              <p id="nombre-piloto">Fabio Quartararo</p>
+              <hr />
+              <p id="descripcion">
+                Nuevo diseño para la temporada 2024 MotoGP HJC, Diseñado y
+                desarrollado después de varios años de esfuerzos enfocados junto
+                con el feedback crucial de los mejores atletas de clase mundial
+                en MotoGP.
+              </p>
+
+              <a href="./disenos.html" class="boton-comprar">¡Comprar ahora!</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="generic-section" id="sectionHelmetStyle">
+        <div class="container">
+          <div class="estilos-text-container">
+            <h2 class="section-title">Conoce más estilos del RPHA1</h2>
+            <p id="descriptionHelmet">
+              El nuevo casco racing RPHA 1 está homologado según las normas de
+              carreras de la FIM (FRHPhe-01) y la nueva normativa ECE 22.06.
+            </p>
+            <center>
+              <a
+                href="https://www.youtube.com/watch?v=LWUkLv_dA5U"
+                target="_blank"
+                class="button-outline"
+              >
+                Conoce más estilos</a
+              >
+            </center>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="generic-section mb-5">
+      <div class="container">
+        <div class="social-media d-flex gap-3 justify-center mb-3">
+          <img
+            src="./src/img/facebook.png"
+            class="social-icon"
+            alt="facebook"
+          />
+          <img
+            src="./src/img/whatsapp (1).png"
+            class="social-icon"
+            alt="whatsapp"
+          />
+          <img
+            src="./src/img/logotipo-de-instagram.png"
+            class="social-icon"
+            alt="instagram"
+          />
+        </div>
+        <p id="copyright">
+          Copyright 2024 Santiago Gutiérrez - Bernardo Santacruz, todos los
+          derechos reservados.
+          <i>Instroducción a la programación, <strong> Cesde </strong></i>
+        </p>
+        <a id="terminos" href="#">Terminos y condiciones.</a>
+      </div>
+    </footer>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
